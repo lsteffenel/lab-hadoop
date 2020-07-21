@@ -4,9 +4,8 @@
 chmod +x ~/binder/start.hadoop
 chmod +x ~/binder/start.spark
 
-~/binder/start.hadoop  		&& \
-sleep 15              		&& \
-~/binder/start.spark  		
+~/binder/start.hadoop  	&& \
+~/binder/start.spark  	&	
 
 
 
