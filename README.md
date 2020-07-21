@@ -23,7 +23,7 @@
 
 # lab-spark sandbox
 
-A binderhub-ready repository template for launching specific interfaces on [binderhub](https://github.com/jupyterhub/binderhub) instances while running a MySQL server.
+A binderhub-ready repository template for launching specific interfaces on [binderhub](https://github.com/jupyterhub/binderhub) instances.
 
 ## Table of contents
 
