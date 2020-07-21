@@ -69,4 +69,4 @@
 # - OPENBLAS_NUM_THREADS=1   Disable multi-threading of OpenBLAS
 
 export SPARK_MASTER_HOST=localhost
-export SPARK_WORKER_INSTANCES=2
+export SPARK_WORKER_INSTANCES=3
