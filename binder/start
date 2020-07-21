@@ -2,10 +2,13 @@
 
 
 chmod +x ~/binder/start.hadoop
+chmod +x ~/binder/start.spark
 
 ~/binder/start.hadoop  		&& \
-sleep 3                		&& \
-touch ready.txt         	&
+sleep 15              		&& \
+~/binder/start.spark  		
+
+
 
 
 
