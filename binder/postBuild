@@ -47,7 +47,7 @@ echo "export HADOOP_HOME=${HADOOP_HOME}"       >> ~/.bashrc
 echo "export HADOOP_HOME=${HADOOP_HOME}"       >> ~/.profile
 
 
-wget http://ftp.unicamp.br/pub/apache/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz -q  
+wget https://miroir.univ-lorraine.fr/apache/hadoop/common/hadoop-${HADOOP_VERSION}/hadoop-${HADOOP_VERSION}.tar.gz -q  
 tar -xvf hadoop-${HADOOP_VERSION}.tar.gz >> /dev/null                                                            
 rm       hadoop-${HADOOP_VERSION}.tar.gz              
 
@@ -102,7 +102,7 @@ export SPARK_HOME=$(pwd)/spark-${SPARK_VERSION}
 echo "export SPARK_HOME=${SPARK_HOME}" >> ~/.bashrc
 echo "export SPARK_HOME=${SPARK_HOME}" >> ~/.profile
 
-wget http://ftp.unicamp.br/pub/apache/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-without-hadoop.tgz  -q     
+wget https://miroir.univ-lorraine.fr/apache/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-without-hadoop.tgz  -q     
 
 tar -xvf spark-${SPARK_VERSION}-bin-without-hadoop.tgz > /dev/null 										 		              
 rm       spark-${SPARK_VERSION}-bin-without-hadoop.tgz															            
